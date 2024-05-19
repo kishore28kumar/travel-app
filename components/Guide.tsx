@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Guide = () => {
+const  Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
@@ -23,7 +23,7 @@ const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter man-container relative w-full">
+      <div className="flexCenter max-container relative w-full">
         <Image
           src="/boat.png"
           alt="boat"
